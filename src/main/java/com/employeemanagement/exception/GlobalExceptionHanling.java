@@ -1,6 +1,6 @@
 package com.employeemanagement.exception;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,31 +11,31 @@ import org.springframework.web.context.request.WebRequest;
 @RestControllerAdvice
 public class GlobalExceptionHanling {
 
-	@ExceptionHandler(value = {ResourceNotFound.class})
+	@ExceptionHandler(value = { ResourceNotFound.class })
 	public ResponseEntity<ErrorDetails> handleResourceNotFound(ResourceNotFound resourceNotFound, WebRequest request) {
 
-		return new ResponseEntity<ErrorDetails>(new ErrorDetails(new Date(), resourceNotFound.getMessage(),
+		return new ResponseEntity<ErrorDetails>(new ErrorDetails(LocalDateTime.now(), resourceNotFound.getMessage(),
 				request.getDescription(false), ErrorCode.ER101.toString()), HttpStatus.NOT_FOUND);
 
 	}
 
-	@ExceptionHandler(DuplicateEmployeeFoundException.class)
+	@ExceptionHandler(value = { DuplicateEmployeeFoundException.class })
 	public ResponseEntity<ErrorDetails> handleDuplicateEmployeeFoundException(
 			DuplicateEmployeeFoundException duplicateEmployeeFoundException, WebRequest request) {
 
 		return new ResponseEntity<ErrorDetails>(
-				new ErrorDetails(new Date(), duplicateEmployeeFoundException.getMessage(),
+				new ErrorDetails(LocalDateTime.now(), duplicateEmployeeFoundException.getMessage(),
 						request.getDescription(false), ErrorCode.ER201.toString()),
 				HttpStatus.CONFLICT);
 
 	}
 
-	@ExceptionHandler(NoSuchEmloyeeFoundException.class)
+	@ExceptionHandler(value = { NoSuchEmloyeeFoundException.class })
 	public ResponseEntity<ErrorDetails> handleNoSuchEmloyeeFoundException(
 			NoSuchEmloyeeFoundException duplicateEmployeeFoundException, WebRequest request) {
 
 		return new ResponseEntity<ErrorDetails>(
-				new ErrorDetails(new Date(), duplicateEmployeeFoundException.getMessage(),
+				new ErrorDetails(LocalDateTime.now(), duplicateEmployeeFoundException.getMessage(),
 						request.getDescription(false), ErrorCode.ER301.toString()),
 				HttpStatus.NOT_FOUND);
 

@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -26,20 +27,20 @@ public class EmployeeController {
 	}
 
 	@GetMapping("/get")
-	public List<Employee> getAllEmployees() {
-		return service.getAllEmployees();
+	public ResponseEntity<List<Employee>> getAllEmployees() {
+		return ResponseEntity.ok(service.getAllEmployees());
 	}
 
 	@PostMapping("/save")
-	public String saveEmployee(@RequestBody Employee emp) {
+	public ResponseEntity<String> saveEmployee(@RequestBody Employee emp) {
 		service.saveEmployee(emp);
-		return "Employee with ID " + emp.getId() + " is saved successfully";
+		return ResponseEntity.ok("Employee with ID " + emp.getId() + " is saved successfully");
 	}
 
 	@DeleteMapping("/delete")
-	public String deleteEmployee(@RequestParam(value = "empid") Integer id) {
+	public ResponseEntity<String> deleteEmployee(@RequestParam(value = "empid") Integer id) {
 		service.deleteEmployee(id);
-		return "Deleted employee associated with ID " + id;
+		return ResponseEntity.ok("Deleted employee associated with ID " + id);
 	}
 
 	@GetMapping("/DownloadCSV")
