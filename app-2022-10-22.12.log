@@ -1,0 +1,404 @@
+2022-10-22 10:50:04.183 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding an EntityIdentityInsertAction for [com.employeemanagement.entity.Employee] object
+2022-10-22 10:50:04.185 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.185 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.185 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing insertions before resolved early-insert
+2022-10-22 10:50:04.201 DEBUG 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing identity-insert immediately
+2022-10-22 10:50:04.201 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Inserting entity: com.employeemanagement.entity.Employee (native id)
+2022-10-22 10:50:04.201 DEBUG 25292 --- [restartedMain] org.hibernate.SQL                        : insert into emp_table (name, salary) values (?, ?)
+2022-10-22 10:50:04.201 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@142618349 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values (** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+2022-10-22 10:50:04.201 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Dehydrating entity: [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.201 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Nagarjun]
+2022-10-22 10:50:04.201 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [400000]
+2022-10-22 10:50:04.202 DEBUG 25292 --- [restartedMain] o.h.id.IdentifierGeneratorHelper         : Natively generated identity: 771
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing result set [HikariProxyResultSet@772492922 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@1a3cc67a]
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@772492922 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@1a3cc67a]
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@142618349 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Nagarjun', 400000)]
+2022-10-22 10:50:04.203 DEBUG 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@142618349 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Nagarjun', 400000)]
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Starting after statement execution processing [ON_CLOSE]
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] o.hibernate.event.internal.EntityState   : Transient instance of: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] o.h.e.i.DefaultPersistEventListener      : Saving transient instance
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractSaveEventListener        : Saving [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding an EntityIdentityInsertAction for [com.employeemanagement.entity.Employee] object
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing insertions before resolved early-insert
+2022-10-22 10:50:04.203 DEBUG 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing identity-insert immediately
+2022-10-22 10:50:04.203 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Inserting entity: com.employeemanagement.entity.Employee (native id)
+2022-10-22 10:50:04.204 DEBUG 25292 --- [restartedMain] org.hibernate.SQL                        : insert into emp_table (name, salary) values (?, ?)
+2022-10-22 10:50:04.204 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@938892481 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values (** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+2022-10-22 10:50:04.204 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Dehydrating entity: [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.204 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Vicky]
+2022-10-22 10:50:04.204 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [2800000]
+2022-10-22 10:50:04.205 DEBUG 25292 --- [restartedMain] o.h.id.IdentifierGeneratorHelper         : Natively generated identity: 772
+2022-10-22 10:50:04.205 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing result set [HikariProxyResultSet@1267028819 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@21be8990]
+2022-10-22 10:50:04.205 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@1267028819 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@21be8990]
+2022-10-22 10:50:04.205 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@938892481 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Vicky', 2800000)]
+2022-10-22 10:50:04.205 DEBUG 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2022-10-22 10:50:04.205 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@938892481 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Vicky', 2800000)]
+2022-10-22 10:50:04.205 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Starting after statement execution processing [ON_CLOSE]
+2022-10-22 10:50:04.206 TRACE 25292 --- [restartedMain] o.hibernate.event.internal.EntityState   : Transient instance of: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.206 TRACE 25292 --- [restartedMain] o.h.e.i.DefaultPersistEventListener      : Saving transient instance
+2022-10-22 10:50:04.206 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractSaveEventListener        : Saving [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.206 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding an EntityIdentityInsertAction for [com.employeemanagement.entity.Employee] object
+2022-10-22 10:50:04.206 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.206 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.206 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing insertions before resolved early-insert
+2022-10-22 10:50:04.206 DEBUG 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing identity-insert immediately
+2022-10-22 10:50:04.206 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Inserting entity: com.employeemanagement.entity.Employee (native id)
+2022-10-22 10:50:04.206 DEBUG 25292 --- [restartedMain] org.hibernate.SQL                        : insert into emp_table (name, salary) values (?, ?)
+2022-10-22 10:50:04.206 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@1395333024 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values (** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+2022-10-22 10:50:04.206 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Dehydrating entity: [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.206 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Rocky]
+2022-10-22 10:50:04.206 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [460000]
+2022-10-22 10:50:04.207 DEBUG 25292 --- [restartedMain] o.h.id.IdentifierGeneratorHelper         : Natively generated identity: 773
+2022-10-22 10:50:04.207 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing result set [HikariProxyResultSet@101508700 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@3547f16d]
+2022-10-22 10:50:04.207 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@101508700 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@3547f16d]
+2022-10-22 10:50:04.208 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@1395333024 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Rocky', 460000)]
+2022-10-22 10:50:04.208 DEBUG 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2022-10-22 10:50:04.208 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@1395333024 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Rocky', 460000)]
+2022-10-22 10:50:04.208 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Starting after statement execution processing [ON_CLOSE]
+2022-10-22 10:50:04.208 TRACE 25292 --- [restartedMain] o.hibernate.event.internal.EntityState   : Transient instance of: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.208 TRACE 25292 --- [restartedMain] o.h.e.i.DefaultPersistEventListener      : Saving transient instance
+2022-10-22 10:50:04.208 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractSaveEventListener        : Saving [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.208 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding an EntityIdentityInsertAction for [com.employeemanagement.entity.Employee] object
+2022-10-22 10:50:04.208 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.208 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.208 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing insertions before resolved early-insert
+2022-10-22 10:50:04.208 DEBUG 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing identity-insert immediately
+2022-10-22 10:50:04.208 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Inserting entity: com.employeemanagement.entity.Employee (native id)
+2022-10-22 10:50:04.208 DEBUG 25292 --- [restartedMain] org.hibernate.SQL                        : insert into emp_table (name, salary) values (?, ?)
+2022-10-22 10:50:04.209 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@1130886396 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values (** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+2022-10-22 10:50:04.209 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Dehydrating entity: [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.209 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Rihana]
+2022-10-22 10:50:04.209 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [120000]
+2022-10-22 10:50:04.210 DEBUG 25292 --- [restartedMain] o.h.id.IdentifierGeneratorHelper         : Natively generated identity: 774
+2022-10-22 10:50:04.210 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing result set [HikariProxyResultSet@1235335524 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@4ae4ba6e]
+2022-10-22 10:50:04.214 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@1235335524 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@4ae4ba6e]
+2022-10-22 10:50:04.214 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@1130886396 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Rihana', 120000)]
+2022-10-22 10:50:04.214 DEBUG 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2022-10-22 10:50:04.214 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@1130886396 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Rihana', 120000)]
+2022-10-22 10:50:04.214 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Starting after statement execution processing [ON_CLOSE]
+2022-10-22 10:50:04.215 TRACE 25292 --- [restartedMain] o.hibernate.event.internal.EntityState   : Transient instance of: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.215 TRACE 25292 --- [restartedMain] o.h.e.i.DefaultPersistEventListener      : Saving transient instance
+2022-10-22 10:50:04.215 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractSaveEventListener        : Saving [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.215 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding an EntityIdentityInsertAction for [com.employeemanagement.entity.Employee] object
+2022-10-22 10:50:04.215 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.215 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.215 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing insertions before resolved early-insert
+2022-10-22 10:50:04.215 DEBUG 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing identity-insert immediately
+2022-10-22 10:50:04.215 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Inserting entity: com.employeemanagement.entity.Employee (native id)
+2022-10-22 10:50:04.215 DEBUG 25292 --- [restartedMain] org.hibernate.SQL                        : insert into emp_table (name, salary) values (?, ?)
+2022-10-22 10:50:04.215 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@376251409 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values (** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+2022-10-22 10:50:04.215 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Dehydrating entity: [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.215 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Sweta]
+2022-10-22 10:50:04.215 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [3040000]
+2022-10-22 10:50:04.216 DEBUG 25292 --- [restartedMain] o.h.id.IdentifierGeneratorHelper         : Natively generated identity: 775
+2022-10-22 10:50:04.216 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing result set [HikariProxyResultSet@2041961336 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@2f78dbc9]
+2022-10-22 10:50:04.216 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@2041961336 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@2f78dbc9]
+2022-10-22 10:50:04.216 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@376251409 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Sweta', 3040000)]
+2022-10-22 10:50:04.216 DEBUG 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2022-10-22 10:50:04.216 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@376251409 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Sweta', 3040000)]
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Starting after statement execution processing [ON_CLOSE]
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] o.hibernate.event.internal.EntityState   : Transient instance of: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] o.h.e.i.DefaultPersistEventListener      : Saving transient instance
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractSaveEventListener        : Saving [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding an EntityIdentityInsertAction for [com.employeemanagement.entity.Employee] object
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing insertions before resolved early-insert
+2022-10-22 10:50:04.217 DEBUG 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing identity-insert immediately
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Inserting entity: com.employeemanagement.entity.Employee (native id)
+2022-10-22 10:50:04.217 DEBUG 25292 --- [restartedMain] org.hibernate.SQL                        : insert into emp_table (name, salary) values (?, ?)
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@1259439815 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values (** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Dehydrating entity: [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Manikya]
+2022-10-22 10:50:04.217 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [4400000]
+2022-10-22 10:50:04.218 DEBUG 25292 --- [restartedMain] o.h.id.IdentifierGeneratorHelper         : Natively generated identity: 776
+2022-10-22 10:50:04.218 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing result set [HikariProxyResultSet@576629503 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@1198beae]
+2022-10-22 10:50:04.218 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@576629503 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@1198beae]
+2022-10-22 10:50:04.218 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@1259439815 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Manikya', 4400000)]
+2022-10-22 10:50:04.218 DEBUG 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2022-10-22 10:50:04.218 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@1259439815 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Manikya', 4400000)]
+2022-10-22 10:50:04.218 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Starting after statement execution processing [ON_CLOSE]
+2022-10-22 10:50:04.218 TRACE 25292 --- [restartedMain] o.hibernate.event.internal.EntityState   : Transient instance of: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.218 TRACE 25292 --- [restartedMain] o.h.e.i.DefaultPersistEventListener      : Saving transient instance
+2022-10-22 10:50:04.218 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractSaveEventListener        : Saving [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.219 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding an EntityIdentityInsertAction for [com.employeemanagement.entity.Employee] object
+2022-10-22 10:50:04.219 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.219 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.219 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing insertions before resolved early-insert
+2022-10-22 10:50:04.219 DEBUG 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing identity-insert immediately
+2022-10-22 10:50:04.219 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Inserting entity: com.employeemanagement.entity.Employee (native id)
+2022-10-22 10:50:04.219 DEBUG 25292 --- [restartedMain] org.hibernate.SQL                        : insert into emp_table (name, salary) values (?, ?)
+2022-10-22 10:50:04.219 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@1523890028 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values (** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+2022-10-22 10:50:04.219 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Dehydrating entity: [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.219 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Sanika]
+2022-10-22 10:50:04.219 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [24800000]
+2022-10-22 10:50:04.220 DEBUG 25292 --- [restartedMain] o.h.id.IdentifierGeneratorHelper         : Natively generated identity: 777
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing result set [HikariProxyResultSet@242032470 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@17745312]
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@242032470 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@17745312]
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@1523890028 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Sanika', 24800000)]
+2022-10-22 10:50:04.220 DEBUG 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@1523890028 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Sanika', 24800000)]
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Starting after statement execution processing [ON_CLOSE]
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] o.hibernate.event.internal.EntityState   : Transient instance of: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] o.h.e.i.DefaultPersistEventListener      : Saving transient instance
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractSaveEventListener        : Saving [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding an EntityIdentityInsertAction for [com.employeemanagement.entity.Employee] object
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.employeemanagement.entity.Employee#<null>]]
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing insertions before resolved early-insert
+2022-10-22 10:50:04.220 DEBUG 25292 --- [restartedMain] org.hibernate.engine.spi.ActionQueue     : Executing identity-insert immediately
+2022-10-22 10:50:04.220 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Inserting entity: com.employeemanagement.entity.Employee (native id)
+2022-10-22 10:50:04.220 DEBUG 25292 --- [restartedMain] org.hibernate.SQL                        : insert into emp_table (name, salary) values (?, ?)
+2022-10-22 10:50:04.221 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@1420743377 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values (** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+2022-10-22 10:50:04.221 TRACE 25292 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Dehydrating entity: [com.employeemanagement.entity.Employee#<null>]
+2022-10-22 10:50:04.221 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Chaitanya]
+2022-10-22 10:50:04.221 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [4604000]
+2022-10-22 10:50:04.222 DEBUG 25292 --- [restartedMain] o.h.id.IdentifierGeneratorHelper         : Natively generated identity: 778
+2022-10-22 10:50:04.222 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing result set [HikariProxyResultSet@1643636629 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@56648a8f]
+2022-10-22 10:50:04.222 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@1643636629 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@56648a8f]
+2022-10-22 10:50:04.222 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@1420743377 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Chaitanya', 4604000)]
+2022-10-22 10:50:04.222 DEBUG 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2022-10-22 10:50:04.222 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@1420743377 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: insert into emp_table (name, salary) values ('Chaitanya', 4604000)]
+2022-10-22 10:50:04.222 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Starting after statement execution processing [ON_CLOSE]
+2022-10-22 10:50:04.222 TRACE 25292 --- [restartedMain] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.saveAll]
+2022-10-22 10:50:04.222 DEBUG 25292 --- [restartedMain] o.s.orm.jpa.JpaTransactionManager        : Initiating transaction commit
+2022-10-22 10:50:04.222 DEBUG 25292 --- [restartedMain] o.s.orm.jpa.JpaTransactionManager        : Committing JPA transaction on EntityManager [SessionImpl(677814787PersistenceContext[entityKeys=[EntityKey[com.employeemanagement.entity.Employee#775], EntityKey[com.employeemanagement.entity.Employee#774], EntityKey[com.employeemanagement.entity.Employee#777], EntityKey[com.employeemanagement.entity.Employee#776], EntityKey[com.employeemanagement.entity.Employee#771], EntityKey[com.employeemanagement.entity.Employee#770], EntityKey[com.employeemanagement.entity.Employee#773], EntityKey[com.employeemanagement.entity.Employee#772], EntityKey[com.employeemanagement.entity.Employee#769], EntityKey[com.employeemanagement.entity.Employee#778]], collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2022-10-22 10:50:04.222 DEBUG 25292 --- [restartedMain] o.h.e.t.internal.TransactionImpl         : committing
+2022-10-22 10:50:04.222 TRACE 25292 --- [restartedMain] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+2022-10-22 10:50:04.222 TRACE 25292 --- [restartedMain] org.hibernate.internal.SessionImpl       : SessionImpl#beforeTransactionCompletion()
+2022-10-22 10:50:04.222 TRACE 25292 --- [restartedMain] org.hibernate.internal.SessionImpl       : Automatically flushing session
+2022-10-22 10:50:04.222 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractFlushingEventListener    : Flushing session
+2022-10-22 10:50:04.222 DEBUG 25292 --- [restartedMain] o.h.e.i.AbstractFlushingEventListener    : Processing flush-time cascades
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Done processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Done processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Done processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Done processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Done processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Done processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Done processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Done processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Done processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] org.hibernate.engine.internal.Cascade    : Done processing cascade ACTION_PERSIST_ON_FLUSH for: com.employeemanagement.entity.Employee
+2022-10-22 10:50:04.223 DEBUG 25292 --- [restartedMain] o.h.e.i.AbstractFlushingEventListener    : Dirty checking collections
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractFlushingEventListener    : Flushing entities and processing referenced collections
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractFlushingEventListener    : Processing unreferenced collections
+2022-10-22 10:50:04.223 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractFlushingEventListener    : Scheduling collection removes/(re)creates/updates
+2022-10-22 10:50:04.223 DEBUG 25292 --- [restartedMain] o.h.e.i.AbstractFlushingEventListener    : Flushed: 0 insertions, 0 updates, 0 deletions to 10 objects
+2022-10-22 10:50:04.223 DEBUG 25292 --- [restartedMain] o.h.e.i.AbstractFlushingEventListener    : Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2022-10-22 10:50:04.223 DEBUG 25292 --- [restartedMain] o.hibernate.internal.util.EntityPrinter  : Listing entities:
+2022-10-22 10:50:04.223 DEBUG 25292 --- [restartedMain] o.hibernate.internal.util.EntityPrinter  : com.employeemanagement.entity.Employee{name=Sweta, id=775, salary=3040000}
+2022-10-22 10:50:04.223 DEBUG 25292 --- [restartedMain] o.hibernate.internal.util.EntityPrinter  : com.employeemanagement.entity.Employee{name=Rihana, id=774, salary=120000}
+2022-10-22 10:50:04.224 DEBUG 25292 --- [restartedMain] o.hibernate.internal.util.EntityPrinter  : com.employeemanagement.entity.Employee{name=Sanika, id=777, salary=24800000}
+2022-10-22 10:50:04.224 DEBUG 25292 --- [restartedMain] o.hibernate.internal.util.EntityPrinter  : com.employeemanagement.entity.Employee{name=Manikya, id=776, salary=4400000}
+2022-10-22 10:50:04.224 DEBUG 25292 --- [restartedMain] o.hibernate.internal.util.EntityPrinter  : com.employeemanagement.entity.Employee{name=Nagarjun, id=771, salary=400000}
+2022-10-22 10:50:04.224 DEBUG 25292 --- [restartedMain] o.hibernate.internal.util.EntityPrinter  : com.employeemanagement.entity.Employee{name=Saurav, id=770, salary=300000}
+2022-10-22 10:50:04.224 DEBUG 25292 --- [restartedMain] o.hibernate.internal.util.EntityPrinter  : com.employeemanagement.entity.Employee{name=Rocky, id=773, salary=460000}
+2022-10-22 10:50:04.224 DEBUG 25292 --- [restartedMain] o.hibernate.internal.util.EntityPrinter  : com.employeemanagement.entity.Employee{name=Vicky, id=772, salary=2800000}
+2022-10-22 10:50:04.224 DEBUG 25292 --- [restartedMain] o.hibernate.internal.util.EntityPrinter  : com.employeemanagement.entity.Employee{name=John, id=769, salary=120000}
+2022-10-22 10:50:04.224 DEBUG 25292 --- [restartedMain] o.hibernate.internal.util.EntityPrinter  : com.employeemanagement.entity.Employee{name=Chaitanya, id=778, salary=4604000}
+2022-10-22 10:50:04.224 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractFlushingEventListener    : Executing flush
+2022-10-22 10:50:04.224 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Starting after statement execution processing [ON_CLOSE]
+2022-10-22 10:50:04.224 TRACE 25292 --- [restartedMain] o.h.e.i.AbstractFlushingEventListener    : Post flush
+2022-10-22 10:50:04.224 TRACE 25292 --- [restartedMain] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#beforeTransactionCompletion
+2022-10-22 10:50:04.224 TRACE 25292 --- [restartedMain] .t.i.SynchronizationRegistryStandardImpl : SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+2022-10-22 10:50:04.224 TRACE 25292 --- [restartedMain] j.i.AbstractLogicalConnectionImplementor : Preparing to commit transaction via JDBC Connection.commit()
+2022-10-22 10:50:04.251 TRACE 25292 --- [restartedMain] j.i.AbstractLogicalConnectionImplementor : Transaction committed via JDBC Connection.commit()
+2022-10-22 10:50:04.251 TRACE 25292 --- [restartedMain] j.i.AbstractLogicalConnectionImplementor : re-enabling auto-commit on JDBC Connection after completion of JDBC-based transaction
+2022-10-22 10:50:04.252 TRACE 25292 --- [restartedMain] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#afterTransaction
+2022-10-22 10:50:04.252 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2022-10-22 10:50:04.252 TRACE 25292 --- [restartedMain] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+2022-10-22 10:50:04.252 TRACE 25292 --- [restartedMain] .t.i.SynchronizationRegistryStandardImpl : SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+2022-10-22 10:50:04.252 TRACE 25292 --- [restartedMain] org.hibernate.internal.SessionImpl       : SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+2022-10-22 10:50:04.252 DEBUG 25292 --- [restartedMain] o.s.orm.jpa.JpaTransactionManager        : Closing JPA EntityManager [SessionImpl(677814787PersistenceContext[entityKeys=[EntityKey[com.employeemanagement.entity.Employee#775], EntityKey[com.employeemanagement.entity.Employee#774], EntityKey[com.employeemanagement.entity.Employee#777], EntityKey[com.employeemanagement.entity.Employee#776], EntityKey[com.employeemanagement.entity.Employee#771], EntityKey[com.employeemanagement.entity.Employee#770], EntityKey[com.employeemanagement.entity.Employee#773], EntityKey[com.employeemanagement.entity.Employee#772], EntityKey[com.employeemanagement.entity.Employee#769], EntityKey[com.employeemanagement.entity.Employee#778]], collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+2022-10-22 10:50:04.252 TRACE 25292 --- [restartedMain] org.hibernate.internal.SessionImpl       : Closing session [4faead5d-8f02-4678-99db-04dba7c390c2]
+2022-10-22 10:50:04.252 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@398f39ad]
+2022-10-22 10:50:04.252 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2022-10-22 10:50:04.252 TRACE 25292 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2022-10-22 10:50:04.252 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2022-10-22 10:50:04.252 TRACE 25292 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2022-10-22 10:50:04.253 TRACE 25292 --- [restartedMain] toryAnnotationTransactionAttributeSource : Adding transactional method 'org.springframework.data.jpa.repository.support.SimpleJpaRepository.count' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2022-10-22 10:50:04.253 DEBUG 25292 --- [restartedMain] o.s.orm.jpa.JpaTransactionManager        : Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.count]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2022-10-22 10:50:04.253 TRACE 25292 --- [restartedMain] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2022-10-22 10:50:04.253 TRACE 25292 --- [restartedMain] org.hibernate.internal.SessionImpl       : Opened Session [49f78b29-79fe-4cd7-9e47-10871cb04d08] at timestamp: 1666416004253
+2022-10-22 10:50:04.253 DEBUG 25292 --- [restartedMain] o.s.orm.jpa.JpaTransactionManager        : Opened new EntityManager [SessionImpl(1738189382PersistenceContext[entityKeys=[], collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2022-10-22 10:50:04.254 DEBUG 25292 --- [restartedMain] o.s.jdbc.datasource.DataSourceUtils      : Setting JDBC Connection [HikariProxyConnection@358114504 wrapping com.mysql.cj.jdbc.ConnectionImpl@2e4b04f] read-only
+2022-10-22 10:50:04.254 DEBUG 25292 --- [restartedMain] o.h.e.t.internal.TransactionImpl         : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2022-10-22 10:50:04.254 DEBUG 25292 --- [restartedMain] o.h.e.t.internal.TransactionImpl         : begin
+2022-10-22 10:50:04.254 TRACE 25292 --- [restartedMain] j.i.AbstractLogicalConnectionImplementor : Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+2022-10-22 10:50:04.254 TRACE 25292 --- [restartedMain] j.i.AbstractLogicalConnectionImplementor : Transaction begun via JDBC Connection.setAutoCommit(false)
+2022-10-22 10:50:04.254 TRACE 25292 --- [restartedMain] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+2022-10-22 10:50:04.255 DEBUG 25292 --- [restartedMain] o.s.orm.jpa.JpaTransactionManager        : Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@243ed95f]
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.count]
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.h.engine.query.spi.QueryPlanCache      : Unable to locate HQL query plan in cache; generating (select count(*) from Employee x)
+2022-10-22 10:50:04.255 DEBUG 25292 --- [restartedMain] o.h.h.internal.ast.QueryTranslatorImpl   : parse() - HQL: select count(*) from com.employeemanagement.entity.Employee x
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -> statement
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : ---> selectStatement
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----> queryRule
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -------> selectFrom
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : ---------> selectClause
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----------> selectedPropertiesList
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -------------> aliasedExpression
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : ---------------> expression
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----------------> logicalOrExpression
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -------------------> logicalAndExpression
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : ---------------------> negatedExpression
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----------------------> equalityExpression
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -------------------------> relationalExpression
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : ---------------------------> concatenation
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----------------------------> additiveExpression
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -------------------------------> multiplyExpression
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : ---------------------------------> unaryExpression
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----------------------------------> atom
+2022-10-22 10:50:04.255 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -------------------------------------> primaryExpression
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : ---------------------------------------> identPrimary
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----------------------------------------> aggregate
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----------------------------------------- aggregate
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <--------------------------------------- identPrimary
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <------------------------------------- primaryExpression
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----------------------------------- atom
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <--------------------------------- unaryExpression
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <------------------------------- multiplyExpression
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----------------------------- additiveExpression
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <--------------------------- concatenation
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <------------------------- relationalExpression
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----------------------- equalityExpression
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <--------------------- negatedExpression
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <------------------- logicalAndExpression
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----------------- logicalOrExpression
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <--------------- expression
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <------------- aliasedExpression
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----------- selectedPropertiesList
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <--------- selectClause
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : ---------> fromClause
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----------> fromRange
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -------------> fromClassOrOuterQueryPath
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : ---------------> path
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----------------> identifier
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----------------- identifier
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----------------> identifier
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----------------- identifier
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----------------> identifier
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----------------- identifier
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----------------> identifier
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----------------- identifier
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <--------------- path
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : ---------------> asAlias
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -----------------> alias
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : -------------------> identifier
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <------------------- identifier
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----------------- alias
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <--------------- asAlias
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <------------- fromClassOrOuterQueryPath
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----------- fromRange
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <--------- fromClause
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <------- selectFrom
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <----- queryRule
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <--- selectStatement
+2022-10-22 10:50:04.256 TRACE 25292 --- [restartedMain] o.hibernate.hql.internal.ast.HqlParser   : <- statement
+2022-10-22 10:50:04.256 DEBUG 25292 --- [restartedMain] o.h.hql.internal.ast.ErrorTracker        : throwQueryException() : no errors
+2022-10-22 10:50:04.257 DEBUG 25292 --- [restartedMain] o.h.h.internal.ast.QueryTranslatorImpl   : --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  \-[IDENT] Node: 'employeemanagement'
+       |     |  |  \-[IDENT] Node: 'entity'
+       |     |  \-[IDENT] Node: 'Employee'
+       |     \-[ALIAS] Node: 'x'
+       \-[SELECT] Node: 'select'
+          \-[COUNT] Node: 'count'
+             \-[ROW_STAR] Node: '*'
+
+2022-10-22 10:50:04.257 DEBUG 25292 --- [restartedMain] o.h.hql.internal.antlr.HqlSqlBaseWalker  : select << begin [level=1, statement=select]
+2022-10-22 10:50:04.257 DEBUG 25292 --- [restartedMain] o.h.hql.internal.ast.tree.FromElement    : FromClause{level=1} : com.employeemanagement.entity.Employee (x) -> employee0_
+2022-10-22 10:50:04.257 DEBUG 25292 --- [restartedMain] o.h.hql.internal.antlr.HqlSqlBaseWalker  : select : finishing up [level=1, statement=select]
+2022-10-22 10:50:04.257 DEBUG 25292 --- [restartedMain] o.h.hql.internal.ast.HqlSqlWalker        : processQuery() :  ( SELECT ( {select clause} ( count * ) ) ( FromClause{level=1} emp_table employee0_ ) )
+2022-10-22 10:50:04.257 DEBUG 25292 --- [restartedMain] o.h.hql.internal.ast.util.JoinProcessor  : Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    |  +-CountNode
+    |  |  \-SqlNode
+    |  \-SqlNode
+    \-FromClause
+       \-FromElement
+
+2022-10-22 10:50:04.258 DEBUG 25292 --- [restartedMain] o.h.hql.internal.ast.util.JoinProcessor  : Using FROM fragment [emp_table employee0_]
+2022-10-22 10:50:04.258 DEBUG 25292 --- [restartedMain] o.h.hql.internal.antlr.HqlSqlBaseWalker  : select >> end [level=1, statement=select]
+2022-10-22 10:50:04.258 DEBUG 25292 --- [restartedMain] o.h.h.internal.ast.QueryTranslatorImpl   : --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (emp_table)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[COUNT] CountNode: 'count'
+    |  |  \-[ROW_STAR] SqlNode: '*'
+    |  \-[SELECT_COLUMNS] SqlNode: ' as col_0_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[x], fromElementByTableAlias=[employee0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'emp_table employee0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=x,role=null,tableName=emp_table,tableAlias=employee0_,origin=null,columns={,className=com.employeemanagement.entity.Employee}}
+
+2022-10-22 10:50:04.258 DEBUG 25292 --- [restartedMain] o.h.hql.internal.ast.ErrorTracker        : throwQueryException() : no errors
+2022-10-22 10:50:04.258 DEBUG 25292 --- [restartedMain] o.h.h.internal.ast.QueryTranslatorImpl   : HQL: select count(*) from com.employeemanagement.entity.Employee x
+2022-10-22 10:50:04.258 DEBUG 25292 --- [restartedMain] o.h.h.internal.ast.QueryTranslatorImpl   : SQL: select count(*) as col_0_0_ from emp_table employee0_
+2022-10-22 10:50:04.258 DEBUG 25292 --- [restartedMain] o.h.hql.internal.ast.ErrorTracker        : throwQueryException() : no errors
+2022-10-22 10:50:04.258 TRACE 25292 --- [restartedMain] o.h.engine.query.spi.HQLQueryPlan        : Find: select count(*) from Employee x
+2022-10-22 10:50:04.258 TRACE 25292 --- [restartedMain] o.hibernate.engine.spi.QueryParameters   : Named parameters: {}
+2022-10-22 10:50:04.258 DEBUG 25292 --- [restartedMain] org.hibernate.SQL                        : select count(*) as col_0_0_ from emp_table employee0_
+2022-10-22 10:50:04.258 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@1455849583 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select count(*) as col_0_0_ from emp_table employee0_]
+2022-10-22 10:50:04.258 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Registering last query statement [HikariProxyPreparedStatement@1455849583 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select count(*) as col_0_0_ from emp_table employee0_]
+2022-10-22 10:50:04.259 TRACE 25292 --- [restartedMain] org.hibernate.loader.Loader              : Bound [1] parameters total
+2022-10-22 10:50:04.271 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering result set [HikariProxyResultSet@15650907 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@52c80538]
+2022-10-22 10:50:04.271 TRACE 25292 --- [restartedMain] org.hibernate.loader.Loader              : Processing result set
+2022-10-22 10:50:04.271 DEBUG 25292 --- [restartedMain] org.hibernate.loader.Loader              : Result set row: 0
+2022-10-22 10:50:04.271 DEBUG 25292 --- [restartedMain] org.hibernate.loader.Loader              : Result row: 
+2022-10-22 10:50:04.271 TRACE 25292 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([col_0_0_] : [BIGINT]) - [10]
+2022-10-22 10:50:04.272 TRACE 25292 --- [restartedMain] org.hibernate.loader.Loader              : Done processing result set (1 rows)
+2022-10-22 10:50:04.272 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@1455849583 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select count(*) as col_0_0_ from emp_table employee0_]
+2022-10-22 10:50:04.272 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@15650907 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@52c80538]
+2022-10-22 10:50:04.272 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@1455849583 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select count(*) as col_0_0_ from emp_table employee0_]
+2022-10-22 10:50:04.272 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Starting after statement execution processing [ON_CLOSE]
+2022-10-22 10:50:04.272 TRACE 25292 --- [restartedMain] o.h.e.i.StatefulPersistenceContext       : Initializing non-lazy collections
+2022-10-22 10:50:04.272 TRACE 25292 --- [restartedMain] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.count]
+2022-10-22 10:50:04.272 DEBUG 25292 --- [restartedMain] o.s.orm.jpa.JpaTransactionManager        : Initiating transaction commit
+2022-10-22 10:50:04.272 DEBUG 25292 --- [restartedMain] o.s.orm.jpa.JpaTransactionManager        : Committing JPA transaction on EntityManager [SessionImpl(1738189382PersistenceContext[entityKeys=[], collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2022-10-22 10:50:04.272 DEBUG 25292 --- [restartedMain] o.h.e.t.internal.TransactionImpl         : committing
+2022-10-22 10:50:04.272 TRACE 25292 --- [restartedMain] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+2022-10-22 10:50:04.272 TRACE 25292 --- [restartedMain] org.hibernate.internal.SessionImpl       : SessionImpl#beforeTransactionCompletion()
+2022-10-22 10:50:04.272 TRACE 25292 --- [restartedMain] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#beforeTransactionCompletion
+2022-10-22 10:50:04.272 TRACE 25292 --- [restartedMain] .t.i.SynchronizationRegistryStandardImpl : SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+2022-10-22 10:50:04.272 TRACE 25292 --- [restartedMain] j.i.AbstractLogicalConnectionImplementor : Preparing to commit transaction via JDBC Connection.commit()
+2022-10-22 10:50:04.273 TRACE 25292 --- [restartedMain] j.i.AbstractLogicalConnectionImplementor : Transaction committed via JDBC Connection.commit()
+2022-10-22 10:50:04.273 TRACE 25292 --- [restartedMain] j.i.AbstractLogicalConnectionImplementor : re-enabling auto-commit on JDBC Connection after completion of JDBC-based transaction
+2022-10-22 10:50:04.273 TRACE 25292 --- [restartedMain] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#afterTransaction
+2022-10-22 10:50:04.273 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2022-10-22 10:50:04.273 TRACE 25292 --- [restartedMain] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+2022-10-22 10:50:04.273 TRACE 25292 --- [restartedMain] .t.i.SynchronizationRegistryStandardImpl : SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+2022-10-22 10:50:04.273 TRACE 25292 --- [restartedMain] org.hibernate.internal.SessionImpl       : SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+2022-10-22 10:50:04.274 DEBUG 25292 --- [restartedMain] o.s.jdbc.datasource.DataSourceUtils      : Resetting read-only flag of JDBC Connection [HikariProxyConnection@358114504 wrapping com.mysql.cj.jdbc.ConnectionImpl@2e4b04f]
+2022-10-22 10:50:04.274 DEBUG 25292 --- [restartedMain] o.s.orm.jpa.JpaTransactionManager        : Closing JPA EntityManager [SessionImpl(1738189382PersistenceContext[entityKeys=[], collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+2022-10-22 10:50:04.279 TRACE 25292 --- [restartedMain] org.hibernate.internal.SessionImpl       : Closing session [49f78b29-79fe-4cd7-9e47-10871cb04d08]
+2022-10-22 10:50:04.279 TRACE 25292 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@50073cab]
+2022-10-22 10:50:04.279 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2022-10-22 10:50:04.279 TRACE 25292 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2022-10-22 10:50:04.279 TRACE 25292 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2022-10-22 10:50:04.279 TRACE 25292 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2022-10-22 10:50:04.280 TRACE 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'conditionEvaluationDeltaLoggingListener'
+2022-10-22 10:50:04.280 TRACE 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'liveReloadServerEventListener'
+2022-10-22 10:50:04.280 TRACE 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-10-22 10:50:04.281  INFO 25292 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-10-22 10:50:04.281 TRACE 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'applicationAvailability'
+2022-10-22 10:50:04.281 TRACE 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'liveReloadServerEventListener'
+2022-10-22 10:50:04.281 DEBUG 25292 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC

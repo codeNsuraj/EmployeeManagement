@@ -1,0 +1,16 @@
+2022-10-22 10:53:17.564 DEBUG 28316 --- [Thread-7] o.a.catalina.session.StandardManager     : No persisted sessions to unload
+2022-10-22 10:53:17.567 DEBUG 28316 --- [Thread-7] o.apache.catalina.core.StandardContext   : Sending application stop events
+2022-10-22 10:53:17.567 DEBUG 28316 --- [Thread-7] o.apache.catalina.core.StandardContext   : Processing standard container shutdown
+2022-10-22 10:53:17.567 DEBUG 28316 --- [Thread-7] org.apache.catalina.loader.WebappLoader  : Stopping this Loader
+2022-10-22 10:53:17.567 DEBUG 28316 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : getResourceAsStream(org/apache/catalina/loader/JdbcLeakPrevention.class)
+2022-10-22 10:53:17.567 DEBUG 28316 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       :   Delegating to parent classloader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1573db81
+2022-10-22 10:53:17.568 DEBUG 28316 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       :   --> Returning stream from parent
+2022-10-22 10:53:17.570 DEBUG 28316 --- [Thread-7] o.apache.catalina.core.StandardContext   : resetContext Tomcat:j2eeType=WebModule,name=//localhost/,J2EEApplication=none,J2EEServer=none
+2022-10-22 10:53:17.570 DEBUG 28316 --- [Thread-7] o.apache.catalina.core.StandardContext   : Stopping complete
+2022-10-22 10:53:17.571 DEBUG 28316 --- [Thread-7] org.apache.tomcat.util.net.NioEndpoint   : Destroy initiated for 0.0.0.0/0.0.0.0:8082
+2022-10-22 10:53:17.571 DEBUG 28316 --- [Thread-7] org.apache.tomcat.util.net.NioEndpoint   : Destroy completed for 0.0.0.0/0.0.0.0:8082
+2022-10-22 10:53:17.572 DEBUG 28316 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2022-10-22 10:53:17.572 DEBUG 28316 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147483647
+2022-10-22 10:53:17.572 DEBUG 28316 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Bean 'springBootLoggingLifecycle' completed its stop procedure
+2022-10-22 10:53:17.572 DEBUG 28316 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2022-10-22 10:53:17.572 DEBUG 28316 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans

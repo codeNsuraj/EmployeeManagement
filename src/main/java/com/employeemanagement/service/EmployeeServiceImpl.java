@@ -5,9 +5,12 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Service;
 
+import com.employeemanagement.controller.EmployeeController;
 import com.employeemanagement.entity.Employee;
 import com.employeemanagement.exception.DuplicateEmployeeFoundException;
 import com.employeemanagement.exception.NoSuchEmloyeeFoundException;
@@ -21,6 +24,7 @@ import com.opencsv.exceptions.CsvRequiredFieldEmptyException;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService{
+	private static final Logger log = LoggerFactory.getLogger(EmployeeController.class);
 	
 	private final EmployeeRepo repo;
 
@@ -31,24 +35,30 @@ public class EmployeeServiceImpl implements EmployeeService{
 	@Override
 	public List<Employee> getAllEmployees() {
 		List<Employee> findAll = repo.findAll();
-		if(!findAll.isEmpty())
-			return findAll;
-		else
-			throw new ResourceNotFound("Database is Empty");
+		if(!findAll.isEmpty()) {
+			log.info("getAllEmployee method from EmployeeServiceImpl class executed successfully");
+			return findAll;	
+		}
+		log.warn("getAllEmployee method from EmployeeServiceImpl class found error beacause employees are not present in DB");
+		throw new ResourceNotFound("Database is Empty");
 	}
 
 	@Override
 	public void saveEmployee(Employee emp) {
-		if(repo.findByName(emp.getName())==null)
+		if(repo.findByName(emp.getName())==null) {
 			repo.save(emp);
-		else
+			log.info("saveEmployee method from EmployeeServiceImpl class executed successfully for employee id "+ emp.getId());
+		}else {
+			log.warn("saveEmployee method from EmployeeServiceImpl class found error beacause employee is present in DB with id "+emp.getId());
 			throw new DuplicateEmployeeFoundException(String.format("Employee with name %s is already present in database",emp.getName()));
+		}
 	}
 
 	@Override
 	public void deleteEmployee(Integer id) {
 		repo.findById(id).orElseThrow(() ->new NoSuchEmloyeeFoundException(String.format("Employee not found with ID %d",id)));
 		repo.deleteById(id);
+		log.info("deleteEmployee method from EmployeeServiceImpl class executed successfully for employee id "+id);
 	}
 	
 	@Override
@@ -65,6 +75,7 @@ public class EmployeeServiceImpl implements EmployeeService{
 					.withOrderedResults(true).build();
 			writer.write(allEmployees);
 		} catch (IOException | CsvDataTypeMismatchException | CsvRequiredFieldEmptyException e) {
+			log.error("generateCSVForAllEmployees method from EmployeeServiceImpl class found error beacause of "+e.getMessage());
 			e.printStackTrace();
 		}
 	}

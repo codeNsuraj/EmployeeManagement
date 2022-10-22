@@ -1,0 +1,63 @@
+2022-10-22 10:38:09.574  INFO 33148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-10-22 10:38:09.601  INFO 33148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-10-22 10:38:09.607  INFO 33148 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-22 10:38:09.614  INFO 33148 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-10-22 10:38:09.638  INFO 33148 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-22 10:38:09.641  INFO 33148 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-22 10:38:09.787  WARN 33148 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-22 10:38:09.843  INFO 33148 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-22 10:38:09.872  INFO 33148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-22 10:38:09.977  INFO 33148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-22 10:38:09.978  INFO 33148 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-10-22 10:38:09.979  INFO 33148 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-10-22 10:38:09.986  INFO 33148 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-10-22 10:38:10.026  INFO 33148 --- [restartedMain] c.e.EmployeeManageApplication            : Started EmployeeManageApplication in 1.231 seconds (JVM running for 1326.389)
+2022-10-22 10:38:10.281  INFO 33148 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-10-22 10:38:19.358  INFO 33672 --- [restartedMain] c.e.EmployeeManageApplication            : Starting EmployeeManageApplication using Java 17.0.4.1 on DESKTOP-EJ3831I with PID 33672 (C:\Microsoft\Class\Projects\4. CSVgenerator\EmployeeManage\EmployeeManage\target\classes started by AAPLL1 in C:\Microsoft\Class\Projects\4. CSVgenerator\EmployeeManage\EmployeeManage)
+2022-10-22 10:38:19.360  INFO 33672 --- [restartedMain] c.e.EmployeeManageApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-10-22 10:38:19.431  INFO 33672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-22 10:38:19.431  INFO 33672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-22 10:38:20.414  INFO 33672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-22 10:38:20.482  INFO 33672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2022-10-22 10:38:21.474  INFO 33672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-22 10:38:21.490  INFO 33672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-22 10:38:21.491  INFO 33672 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-22 10:38:21.593  INFO 33672 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-22 10:38:21.595  INFO 33672 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2163 ms
+2022-10-22 10:38:22.277  INFO 33672 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.0.5 by Redgate
+2022-10-22 10:38:22.279  INFO 33672 --- [restartedMain] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:mysql://localhost:3306/EmployeeProject (MySQL 8.0)
+2022-10-22 10:38:22.350  INFO 33672 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.035s)
+2022-10-22 10:38:22.369  INFO 33672 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `EmployeeProject`: 1.2
+2022-10-22 10:38:22.369  WARN 33672 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `EmployeeProject` has a version (1.2) that is newer than the latest available migration (1.1) !
+2022-10-22 10:38:22.370  INFO 33672 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `EmployeeProject` is up to date. No migration necessary.
+2022-10-22 10:38:22.471  INFO 33672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-22 10:38:22.516  INFO 33672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-22 10:38:22.575  INFO 33672 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-22 10:38:22.641  INFO 33672 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-22 10:38:22.884  INFO 33672 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-22 10:38:23.069  INFO 33672 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-10-22 10:38:23.683  INFO 33672 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-22 10:38:23.694  INFO 33672 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-22 10:38:24.333  WARN 33672 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-22 10:38:24.501  INFO 33672 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-22 10:38:24.571  INFO 33672 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-22 10:38:24.862  INFO 33672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-22 10:38:24.863  INFO 33672 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-10-22 10:38:24.893  INFO 33672 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-10-22 10:38:24.933  INFO 33672 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-10-22 10:38:25.093  INFO 33672 --- [restartedMain] c.e.EmployeeManageApplication            : Started EmployeeManageApplication in 6.292 seconds (JVM running for 10.342)
+2022-10-22 10:38:47.424  INFO 25292 --- [restartedMain] c.e.EmployeeManageApplication            : Starting EmployeeManageApplication using Java 17.0.4.1 on DESKTOP-EJ3831I with PID 25292 (C:\Microsoft\Class\Projects\4. CSVgenerator\EmployeeManage\EmployeeManage\target\classes started by AAPLL1 in C:\Microsoft\Class\Projects\4. CSVgenerator\EmployeeManage\EmployeeManage)
+2022-10-22 10:38:47.425  INFO 25292 --- [restartedMain] c.e.EmployeeManageApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-10-22 10:38:47.495  INFO 25292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-22 10:38:47.495  INFO 25292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-22 10:38:48.479  INFO 25292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-22 10:38:48.565  INFO 25292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2022-10-22 10:38:49.561  INFO 25292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-22 10:38:49.577  INFO 25292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-22 10:38:49.577  INFO 25292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-22 10:38:49.687  INFO 25292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-22 10:38:49.688  INFO 25292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2191 ms
+2022-10-22 10:38:50.325  INFO 25292 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.0.5 by Redgate
+2022-10-22 10:38:50.326  INFO 25292 --- [restartedMain] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:mysql://localhost:3306/EmployeeProject (MySQL 8.0)
+2022-10-22 10:38:50.382  INFO 25292 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.025s)
+2022-10-22 10:38:50.409  INFO 25292 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `EmployeeProject`: 1.2

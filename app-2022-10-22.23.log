@@ -1,0 +1,8 @@
+2022-10-22 10:53:17.557 DEBUG 28316 --- [Thread-7] o.apache.catalina.mapper.MapperListener  : Unregister Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+2022-10-22 10:53:17.562 DEBUG 28316 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Stopping filters
+2022-10-22 10:53:17.563 DEBUG 28316 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+2022-10-22 10:53:17.563 DEBUG 28316 --- [Thread-7] o.a.c.core.ApplicationFilterConfig       : JMX de-registration complete for filter of type [org.apache.tomcat.websocket.server.WsFilter] and name [Tomcat WebSocket (JSR356) Filter]
+2022-10-22 10:53:17.563 DEBUG 28316 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Stopping filter 'characterEncodingFilter'
+2022-10-22 10:53:17.563 DEBUG 28316 --- [Thread-7] o.a.c.core.ApplicationFilterConfig       : JMX de-registration complete for filter of type [org.springframework.boot.web.servlet.filter.OrderedCharacterEncodingFilter] and name [characterEncodingFilter]
+2022-10-22 10:53:17.564 DEBUG 28316 --- [Thread-7] o.a.catalina.session.StandardManager     : Stopping
+2022-10-22 10:53:17.564 DEBUG 28316 --- [Thread-7] o.a.catalina.session.StandardManager     : Unloading persisted sessions

@@ -1,0 +1,36 @@
+2022-10-22 10:40:47.582  INFO 25292 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-22 10:40:47.603  INFO 25292 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-22 10:40:47.607  INFO 25292 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-22 10:40:47.609  INFO 25292 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-10-22 10:40:47.614  INFO 25292 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-10-22 10:40:47.703  INFO 25292 --- [restartedMain] c.e.EmployeeManageApplication            : Starting EmployeeManageApplication using Java 17.0.4.1 on DESKTOP-EJ3831I with PID 25292 (C:\Microsoft\Class\Projects\4. CSVgenerator\EmployeeManage\EmployeeManage\target\classes started by AAPLL1 in C:\Microsoft\Class\Projects\4. CSVgenerator\EmployeeManage\EmployeeManage)
+2022-10-22 10:40:47.706  INFO 25292 --- [restartedMain] c.e.EmployeeManageApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-10-22 10:40:47.996  INFO 25292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-22 10:40:48.009  INFO 25292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2022-10-22 10:40:48.099  INFO 25292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-22 10:40:48.101  INFO 25292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-22 10:40:48.101  INFO 25292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-22 10:40:48.128  INFO 25292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-22 10:40:48.128  INFO 25292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 419 ms
+2022-10-22 10:40:48.176  INFO 25292 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.0.5 by Redgate
+2022-10-22 10:40:48.176  INFO 25292 --- [restartedMain] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:mysql://localhost:3306/EmployeeProject (MySQL 8.0)
+2022-10-22 10:40:48.197  INFO 25292 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.009s)
+2022-10-22 10:40:48.209  INFO 25292 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `EmployeeProject`: 1.2
+2022-10-22 10:40:48.210  WARN 25292 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `EmployeeProject` has a version (1.2) that is newer than the latest available migration (1.1) !
+2022-10-22 10:40:48.211  INFO 25292 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `EmployeeProject` is up to date. No migration necessary.
+2022-10-22 10:40:48.231  INFO 25292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-10-22 10:40:48.252  INFO 25292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-10-22 10:40:48.258  INFO 25292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-22 10:40:48.270  INFO 25292 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-10-22 10:40:48.309  INFO 25292 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-22 10:40:48.310  INFO 25292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-22 10:40:48.531  WARN 25292 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-22 10:40:48.637  INFO 25292 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-22 10:40:48.663  INFO 25292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-22 10:40:48.756  INFO 25292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-22 10:40:48.757  INFO 25292 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-10-22 10:40:48.758  INFO 25292 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-10-22 10:40:48.764  INFO 25292 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-10-22 10:40:48.800  INFO 25292 --- [restartedMain] c.e.EmployeeManageApplication            : Started EmployeeManageApplication in 1.132 seconds (JVM running for 122.589)
+2022-10-22 10:40:48.935  INFO 25292 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-10-22 10:41:08.647  INFO 25292 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)

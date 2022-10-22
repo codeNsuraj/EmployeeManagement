@@ -1,0 +1,136 @@
+2022-10-22 10:49:35.770 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@6dfd09d4
+2022-10-22 10:49:35.773 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@3f551ffc
+2022-10-22 10:49:35.773 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3f551ffc
+2022-10-22 10:49:35.773 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@567c25f0
+2022-10-22 10:49:35.773 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@567c25f0
+2022-10-22 10:49:35.773 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@534a3542
+2022-10-22 10:49:35.773 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@534a3542
+2022-10-22 10:49:35.773 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@51eedd29
+2022-10-22 10:49:35.773 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@51eedd29
+2022-10-22 10:49:35.773 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@46538217
+2022-10-22 10:49:35.773 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@71b77c88
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@71b77c88
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@71b77c88
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@73d5a7d9
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@73d5a7d9
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@73d5a7d9
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@54f53b1f
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@e6c48ac
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@447536d5
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@447536d5
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@447536d5
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1a40aaed
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1a40aaed
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1a40aaed
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@67904779
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@b555a0f
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@66fb062e
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@66fb062e
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@79f3dfde
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@1c3df416
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1c3df416
+2022-10-22 10:49:35.774 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@3d1950bc
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3d1950bc
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@36dfb47
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6487d9db
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@17e91c19
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@600232e8
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@600232e8
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@cd94a6c
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@564a032d
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@91cc429
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@78f83290
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3eb48dc9
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3861b259
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@573314f0
+2022-10-22 10:49:35.775 DEBUG 25292 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6e66d034
+2022-10-22 10:49:35.779 DEBUG 25292 --- [restartedMain] o.h.boot.internal.BootstrapContextImpl   : Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@41605553] into BootstrapContext; was [null]
+2022-10-22 10:49:35.779 DEBUG 25292 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@41605553) [was null]
+2022-10-22 10:49:35.779 DEBUG 25292 --- [restartedMain] o.h.boot.internal.BootstrapContextImpl   : Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@ebb4d1b] into BootstrapContext; was [null]
+2022-10-22 10:49:35.779 DEBUG 25292 --- [restartedMain] o.h.boot.internal.BootstrapContextImpl   : Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@5684cb88] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@147702de]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] o.h.boot.internal.BootstrapContextImpl   : Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@41605553]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@41605553]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2022-10-22 10:49:35.780 DEBUG 25292 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2022-10-22 10:49:35.781 DEBUG 25292 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : Database ->
+       name : MySQL
+    version : 8.0.30
+      major : 8
+      minor : 0
+2022-10-22 10:49:35.781 DEBUG 25292 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.30 (Revision: 1de2fe873fe26189564c030a343885011412976a)
+      major : 8
+      minor : 0
+2022-10-22 10:49:35.781 DEBUG 25292 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : JDBC version : 4.2
+2022-10-22 10:49:35.781  INFO 25292 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-10-22 10:49:35.781 DEBUG 25292 --- [restartedMain] o.h.e.j.env.spi.IdentifierHelperBuilder  : JDBC driver metadata reported database stores quoted identifiers in more than one case
+2022-10-22 10:49:35.781 DEBUG 25292 --- [restartedMain] o.h.e.j.env.spi.IdentifierHelperBuilder  : IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2022-10-22 10:49:35.782 DEBUG 25292 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@577e07ce] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@3f95baf]
+2022-10-22 10:49:35.783 DEBUG 25292 --- [restartedMain] o.h.boot.model.relational.Namespace      : Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2022-10-22 10:49:35.783 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Binding entity from annotated class: com.employeemanagement.entity.Employee
+2022-10-22 10:49:35.783 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2022-10-22 10:49:35.783 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.EntityBinder         : Import with entity name Employee
+2022-10-22 10:49:35.784 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.EntityBinder         : Bind entity com.employeemanagement.entity.Employee on table emp_table
+2022-10-22 10:49:35.785 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(emp_table), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2022-10-22 10:49:35.785 DEBUG 25292 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : Not known whether passed class name [com.employeemanagement.entity.Employee] is safe
+2022-10-22 10:49:35.785 DEBUG 25292 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.employeemanagement.entity.Employee
+2022-10-22 10:49:35.785 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property id with lazy=false
+2022-10-22 10:49:35.785 DEBUG 25292 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.employeemanagement.entity.Employee:id]
+2022-10-22 10:49:35.785 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for id
+2022-10-22 10:49:35.785 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property id
+2022-10-22 10:49:35.785 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.BinderHelper           : #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2022-10-22 10:49:35.786 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(emp_table), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2022-10-22 10:49:35.786 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property name with lazy=false
+2022-10-22 10:49:35.786 DEBUG 25292 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.employeemanagement.entity.Employee:name]
+2022-10-22 10:49:35.786 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for name
+2022-10-22 10:49:35.786 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property name
+2022-10-22 10:49:35.786 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(emp_table), mappingColumn=salary, insertable=true, updatable=true, unique=false}
+2022-10-22 10:49:35.786 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property salary with lazy=false
+2022-10-22 10:49:35.786 DEBUG 25292 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.employeemanagement.entity.Employee:salary]
+2022-10-22 10:49:35.786 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for salary
+2022-10-22 10:49:35.786 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property salary
+2022-10-22 10:49:35.787 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for id
+2022-10-22 10:49:35.788 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for name
+2022-10-22 10:49:35.788 DEBUG 25292 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for salary
+2022-10-22 10:49:35.788 DEBUG 25292 --- [restartedMain] org.hibernate.mapping.PrimaryKey         : Forcing column [id] to be non-null as it is part of the primary key for table [emp_table]
+2022-10-22 10:49:35.790 DEBUG 25292 --- [restartedMain] o.hibernate.internal.SessionFactoryImpl  : Building session factory
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : SessionFactory name : null
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Automatic flush during beforeCompletion(): enabled
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Automatic session close at end of transaction: disabled
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Statistics: disabled
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Deleted entity synthetic identifier rollback: disabled
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Default entity-mode: pojo
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Allow initialization of lazy state outside session : disabled
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Using BatchFetchStyle : LEGACY
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Default batch fetch size: -1
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Maximum outer join fetch depth: 2
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Default null ordering: NONE
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Order SQL updates by primary key: disabled
+2022-10-22 10:49:35.791 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Order SQL inserts for batching: disabled
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : multi-tenancy strategy : NONE
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : JTA Track by Thread: enabled
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Query language substitutions: {}
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Named query checking : enabled
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level cache: disabled
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level query cache: disabled
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level query cache factory: null
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level cache region prefix: null
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Optimize second-level cache for minimal puts: disabled
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Structured second-level cache entries: disabled
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level cache direct-reference entries: disabled
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : Automatic eviction of collection cache: disabled
+2022-10-22 10:49:35.792 DEBUG 25292 --- [restartedMain] org.hibernate.cfg.Settings               : JDBC batch size: 15

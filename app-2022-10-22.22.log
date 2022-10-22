@@ -1,0 +1,12 @@
+2022-10-22 10:53:17.533 DEBUG 28316 --- [Thread-7] o.s.boot.devtools.restart.Restarter      : Stopping application
+2022-10-22 10:53:17.535 DEBUG 28316 --- [Thread-7] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2022-10-22 10:53:17.535 DEBUG 28316 --- [Thread-7] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14a77ec, started on Sat Oct 22 10:51:29 IST 2022
+2022-10-22 10:53:17.537 DEBUG 28316 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2022-10-22 10:53:17.537 DEBUG 28316 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2022-10-22 10:53:17.538 DEBUG 28316 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2022-10-22 10:53:17.538 DEBUG 28316 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483646
+2022-10-22 10:53:17.556 DEBUG 28316 --- [Thread-7] org.apache.tomcat.util.net.NioEndpoint   : About to unlock socket for:/[2409:4081:2c86:ae8f:65e2:530d:d18c:f781]:8082
+2022-10-22 10:53:17.557 DEBUG 28316 --- [Thread-7] org.apache.tomcat.util.net.NioEndpoint   : Socket unlock completed for:/[2409:4081:2c86:ae8f:65e2:530d:d18c:f781]:8082
+2022-10-22 10:53:17.557  INFO 28316 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-22 10:53:17.557 DEBUG 28316 --- [Thread-7] o.apache.catalina.mapper.MapperListener  : Unregister host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2022-10-22 10:53:17.557 DEBUG 28316 --- [Thread-7] o.apache.catalina.mapper.MapperListener  : Unregister Context [] for service [StandardService[Tomcat]]

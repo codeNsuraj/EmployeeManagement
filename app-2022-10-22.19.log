@@ -1,0 +1,12 @@
+2022-10-22 10:50:30.073 TRACE 25292 --- [Thread-39] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'liveReloadServerEventListener'
+2022-10-22 10:50:30.075 TRACE 25292 --- [Thread-39] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'documentationPluginsBootstrapper'
+2022-10-22 10:50:30.075 TRACE 25292 --- [Thread-39] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'lifecycleProcessor'
+2022-10-22 10:50:30.075 TRACE 25292 --- [Thread-39] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'springBootLoggingLifecycle'
+2022-10-22 10:50:30.075 TRACE 25292 --- [Thread-39] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'webServerGracefulShutdown'
+2022-10-22 10:50:30.075 TRACE 25292 --- [Thread-39] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'webServerStartStop'
+2022-10-22 10:50:30.075 DEBUG 25292 --- [Thread-39] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2022-10-22 10:50:30.076 TRACE 25292 --- [Thread-39] o.s.c.support.DefaultLifecycleProcessor  : Asking bean 'documentationPluginsBootstrapper' of type [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] to stop
+2022-10-22 10:50:30.076 DEBUG 25292 --- [Thread-39] o.s.c.support.DefaultLifecycleProcessor  : Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2022-10-22 10:50:30.076 TRACE 25292 --- [Thread-39] o.s.c.support.DefaultLifecycleProcessor  : Asking bean 'webServerGracefulShutdown' of type [org.springframework.boot.web.context.WebServerGracefulShutdownLifecycle] to stop
+2022-10-22 10:50:30.076 DEBUG 25292 --- [Thread-39] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2022-10-22 10:50:30.076 DEBUG 25292 --- [Thread-39] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483646

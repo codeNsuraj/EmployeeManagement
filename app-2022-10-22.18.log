@@ -1,0 +1,7 @@
+2022-10-22 10:50:30.068 TRACE 25292 --- [File Watcher] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'restartingClassPathChangedEventListener'
+2022-10-22 10:50:30.071 TRACE 25292 --- [File Watcher] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'liveReloadServerEventListener'
+2022-10-22 10:50:30.071  INFO 25292 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-22 10:50:30.071 DEBUG 25292 --- [File Watcher] o.s.boot.devtools.restart.Restarter      : Restarting application
+2022-10-22 10:50:30.072 DEBUG 25292 --- [Thread-39] o.s.boot.devtools.restart.Restarter      : Stopping application
+2022-10-22 10:50:30.072 DEBUG 25292 --- [Thread-39] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2022-10-22 10:50:30.073 DEBUG 25292 --- [Thread-39] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73a5be63, started on Sat Oct 22 10:50:02 IST 2022

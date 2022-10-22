@@ -1,0 +1,128 @@
+2022-10-22 10:49:35.543 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+2022-10-22 10:49:35.548 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+2022-10-22 10:49:35.551 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+2022-10-22 10:49:35.551 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+2022-10-22 10:49:35.555 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2022-10-22 10:49:35.556 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2022-10-22 10:49:35.556 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-10-22 10:49:35.556 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2022-10-22 10:49:35.557 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'stringOrNumberMigrationVersionConverter'
+2022-10-22 10:49:35.558 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration'
+2022-10-22 10:49:35.569 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-10-22 10:49:35.571 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+2022-10-22 10:49:35.571 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-10-22 10:49:35.572 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+2022-10-22 10:49:35.572 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+2022-10-22 10:49:35.572 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+2022-10-22 10:49:35.573 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-10-22 10:49:35.573 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+2022-10-22 10:49:35.573 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+2022-10-22 10:49:35.573 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-10-22 10:49:35.574 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'errorPageCustomizer'
+2022-10-22 10:49:35.575 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2022-10-22 10:49:35.575 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-10-22 10:49:35.575 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dispatcherServletRegistration'
+2022-10-22 10:49:35.575 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2022-10-22 10:49:35.575 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dispatcherServlet'
+2022-10-22 10:49:35.575 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2022-10-22 10:49:35.575 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-10-22 10:49:35.577 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-10-22 10:49:35.580 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+2022-10-22 10:49:35.580 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-10-22 10:49:35.581 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'multipartConfigElement'
+2022-10-22 10:49:35.581 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+2022-10-22 10:49:35.582 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2022-10-22 10:49:35.584 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2022-10-22 10:49:35.585 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+2022-10-22 10:49:35.587 DEBUG 25292 --- [restartedMain] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol port=8082)
+2022-10-22 10:49:35.588 DEBUG 25292 --- [restartedMain] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol bindOnInit=false)
+2022-10-22 10:49:35.588 DEBUG 25292 --- [restartedMain] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint bindOnInit=false)
+2022-10-22 10:49:35.588 DEBUG 25292 --- [restartedMain] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol maxPostSize=2097152)
+2022-10-22 10:49:35.589 DEBUG 25292 --- [restartedMain] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint maxPostSize=2097152)
+2022-10-22 10:49:35.589 DEBUG 25292 --- [restartedMain] org.apache.catalina.core.ContainerBase   : Add child StandardHost[localhost] StandardEngine[Tomcat]
+2022-10-22 10:49:35.590 DEBUG 25292 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\AAPLL1\.m2\repository\org\springframework\boot\spring-boot\2.6.12\spring-boot-2.6.12.jar
+2022-10-22 10:49:35.590 DEBUG 25292 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\AAPLL1\.m2\repository\org\springframework\boot\spring-boot\2.6.12\spring-boot-2.6.12.jar
+2022-10-22 10:49:35.590 DEBUG 25292 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-10-22 10:49:35.591 DEBUG 25292 --- [restartedMain] org.apache.catalina.core.ContainerBase   : Add child TomcatEmbeddedContext[] StandardEngine[Tomcat].StandardHost[localhost]
+2022-10-22 10:49:35.599  INFO 25292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-22 10:49:35.600 DEBUG 25292 --- [restartedMain] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol parseBodyMethods=POST)
+2022-10-22 10:49:35.600 DEBUG 25292 --- [restartedMain] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint parseBodyMethods=POST)
+2022-10-22 10:49:35.600  INFO 25292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-22 10:49:35.600  INFO 25292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-22 10:49:35.601 DEBUG 25292 --- [restartedMain] o.apache.catalina.core.StandardContext   : Starting ROOT
+2022-10-22 10:49:35.605 DEBUG 25292 --- [restartedMain] o.apache.catalina.core.StandardContext   : Configuring default Resources
+2022-10-22 10:49:35.607 DEBUG 25292 --- [restartedMain] o.apache.catalina.core.StandardContext   : Processing standard container startup
+2022-10-22 10:49:35.608 DEBUG 25292 --- [restartedMain] org.apache.catalina.loader.WebappLoader  : Starting this Loader
+2022-10-22 10:49:35.627 DEBUG 25292 --- [restartedMain] o.a.c.authenticator.AuthenticatorBase    : No SingleSignOn Valve is present
+2022-10-22 10:49:35.630  INFO 25292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-22 10:49:35.631 DEBUG 25292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-10-22 10:49:35.631  INFO 25292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 595 ms
+2022-10-22 10:49:35.631 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'characterEncodingFilter'
+2022-10-22 10:49:35.634 DEBUG 25292 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648
+2022-10-22 10:49:35.634 DEBUG 25292 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2022-10-22 10:49:35.634 DEBUG 25292 --- [restartedMain] org.apache.catalina.core.ContainerBase   : Add child StandardWrapper[dispatcherServlet] StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]
+2022-10-22 10:49:35.635 DEBUG 25292 --- [restartedMain] o.apache.catalina.core.StandardContext   : Configuring application event listeners
+2022-10-22 10:49:35.635 DEBUG 25292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Sending application start events
+2022-10-22 10:49:35.635 DEBUG 25292 --- [restartedMain] o.a.catalina.session.StandardManager     : Start: Loading persisted sessions
+2022-10-22 10:49:35.636 DEBUG 25292 --- [restartedMain] o.a.catalina.session.StandardManager     : Loading persisted sessions from [C:\Users\AAPLL1\AppData\Local\Temp\EB6D275C0BE3C8EE9F58B01C043B0E855D7DC4D4\servlet-sessions\SESSIONS.ser]
+2022-10-22 10:49:35.636 DEBUG 25292 --- [restartedMain] o.a.catalina.session.StandardManager     : No persisted data file found
+2022-10-22 10:49:35.636 DEBUG 25292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Starting filters
+2022-10-22 10:49:35.636 DEBUG 25292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+2022-10-22 10:49:35.636 DEBUG 25292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'characterEncodingFilter'
+2022-10-22 10:49:35.636 DEBUG 25292 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2022-10-22 10:49:35.637 DEBUG 25292 --- [restartedMain] o.apache.catalina.core.StandardContext   : Starting completed
+2022-10-22 10:49:35.637 DEBUG 25292 --- [restartedMain] org.apache.catalina.mapper.Mapper        : Registered host [localhost]
+2022-10-22 10:49:35.637 DEBUG 25292 --- [restartedMain] o.apache.catalina.mapper.MapperListener  : Register Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+2022-10-22 10:49:35.638 DEBUG 25292 --- [restartedMain] o.apache.catalina.mapper.MapperListener  : Register Context [] for service [StandardService[Tomcat]]
+2022-10-22 10:49:35.638 DEBUG 25292 --- [restartedMain] o.apache.catalina.mapper.MapperListener  : Register host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2022-10-22 10:49:35.639 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'flyway'
+2022-10-22 10:49:35.639 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$FlywayConfiguration'
+2022-10-22 10:49:35.640 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.flyway-org.springframework.boot.autoconfigure.flyway.FlywayProperties'
+2022-10-22 10:49:35.647 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'flyway' via factory method to bean named 'spring.flyway-org.springframework.boot.autoconfigure.flyway.FlywayProperties'
+2022-10-22 10:49:35.647 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'flyway' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@11ce4c50'
+2022-10-22 10:49:35.648 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dataSource'
+2022-10-22 10:49:35.648 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+2022-10-22 10:49:35.648 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2022-10-22 10:49:35.651 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2022-10-22 10:49:35.651 DEBUG 25292 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6e84f747
+2022-10-22 10:49:35.657 DEBUG 25292 --- [restartedMain] o.f.c.i.s.classpath.ClassPathScanner     : Scanning for classpath resources at 'classpath:db/callback' ...
+2022-10-22 10:49:35.657 DEBUG 25292 --- [restartedMain] o.f.c.i.s.classpath.ClassPathScanner     : Determining location urls for classpath:db/callback using ClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6e84f747 ...
+2022-10-22 10:49:35.658 DEBUG 25292 --- [restartedMain] o.f.c.i.s.classpath.ClassPathScanner     : Unable to resolve location classpath:db/callback.
+2022-10-22 10:49:35.658 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'flywayInitializer'
+2022-10-22 10:49:35.658 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'flywayInitializer' via factory method to bean named 'flyway'
+2022-10-22 10:49:35.659 DEBUG 25292 --- [restartedMain] o.f.core.internal.util.FeatureDetector   : AWS SDK available: false
+2022-10-22 10:49:35.659 DEBUG 25292 --- [restartedMain] o.f.core.internal.util.FeatureDetector   : Google Cloud Storage available: false
+2022-10-22 10:49:35.659 DEBUG 25292 --- [restartedMain] o.f.c.i.s.classpath.ClassPathScanner     : Scanning for classpath resources at 'classpath:db/migration' ...
+2022-10-22 10:49:35.659 DEBUG 25292 --- [restartedMain] o.f.c.i.s.classpath.ClassPathScanner     : Determining location urls for classpath:db/migration using ClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6e84f747 ...
+2022-10-22 10:49:35.659 DEBUG 25292 --- [restartedMain] o.f.c.i.s.classpath.ClassPathScanner     : Scanning URL: file:/C:/Microsoft/Class/Projects/4.%20CSVgenerator/EmployeeManage/EmployeeManage/target/classes/db/migration
+2022-10-22 10:49:35.660 DEBUG 25292 --- [restartedMain] o.f.core.internal.util.FeatureDetector   : JBoss VFS v2 available: false
+2022-10-22 10:49:35.660 DEBUG 25292 --- [restartedMain] i.s.c.FileSystemClassPathLocationScanner : Scanning starting at classpath root in filesystem: C:\Microsoft\Class\Projects\4. CSVgenerator\EmployeeManage\EmployeeManage\target\classes\
+2022-10-22 10:49:35.660 DEBUG 25292 --- [restartedMain] i.s.c.FileSystemClassPathLocationScanner : Scanning for resources in path: C:\Microsoft\Class\Projects\4. CSVgenerator\EmployeeManage\EmployeeManage\target\classes\db\migration (db/migration)
+2022-10-22 10:49:35.660 DEBUG 25292 --- [restartedMain] i.s.c.FileSystemClassPathLocationScanner : Scanning for resources in path: C:\Microsoft\Class\Projects\4. CSVgenerator\EmployeeManage\EmployeeManage\target\classes\db\migration\1.0 V (db/migration)
+2022-10-22 10:49:35.661 DEBUG 25292 --- [restartedMain] o.f.c.i.s.classpath.ClassPathScanner     : Found resource: db/migration/1.0 V/V1_1__initialCreation.sql
+2022-10-22 10:49:35.661 DEBUG 25292 --- [restartedMain] o.f.c.i.s.classpath.ClassPathScanner     : Scanning for classes at classpath:db/migration
+2022-10-22 10:49:35.662 DEBUG 25292 --- [restartedMain] o.s.j.datasource.SimpleDriverDataSource  : Creating new JDBC Driver Connection to [jdbc:mysql://localhost:3306/EmployeeProject]
+2022-10-22 10:49:35.676  INFO 25292 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.0.5 by Redgate
+2022-10-22 10:49:35.676  INFO 25292 --- [restartedMain] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:mysql://localhost:3306/EmployeeProject (MySQL 8.0)
+2022-10-22 10:49:35.676 DEBUG 25292 --- [restartedMain] o.f.c.i.database.base.BaseDatabaseType   : Driver  : MySQL Connector/J mysql-connector-java-8.0.30 (Revision: 1de2fe873fe26189564c030a343885011412976a)
+2022-10-22 10:49:35.682 DEBUG 25292 --- [restartedMain] org.flywaydb.core.FlywayExecutor         : DDL Transactions Supported: false
+2022-10-22 10:49:35.682 DEBUG 25292 --- [restartedMain] o.f.c.i.s.SchemaHistoryFactory           : Schemas: EmployeeProject
+2022-10-22 10:49:35.682 DEBUG 25292 --- [restartedMain] o.f.c.i.s.SchemaHistoryFactory           : Default schema: null
+2022-10-22 10:49:35.684 DEBUG 25292 --- [restartedMain] o.f.c.i.c.SqlScriptCallbackFactory       : Scanning for SQL callbacks ...
+2022-10-22 10:49:35.686 DEBUG 25292 --- [restartedMain] o.f.core.internal.command.DbValidate     : Validating migrations ...
+2022-10-22 10:49:35.688 DEBUG 25292 --- [restartedMain] o.f.core.internal.scanner.Scanner        : Filtering out resource: db/migration/1.0 V/V1_1__initialCreation.sql (filename: V1_1__initialCreation.sql)
+2022-10-22 10:49:35.694  INFO 25292 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.007s)
+2022-10-22 10:49:35.704  INFO 25292 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `EmployeeProject`: 1.2
+2022-10-22 10:49:35.704  WARN 25292 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `EmployeeProject` has a version (1.2) that is newer than the latest available migration (1.1) !
+2022-10-22 10:49:35.705  INFO 25292 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `EmployeeProject` is up to date. No migration necessary.
+2022-10-22 10:49:35.708 DEBUG 25292 --- [restartedMain] org.flywaydb.core.FlywayExecutor         : Memory usage: 42 of 88M
+2022-10-22 10:49:35.708 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dataSourceScriptDatabaseInitializer'
+2022-10-22 10:49:35.708 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+2022-10-22 10:49:35.709 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+2022-10-22 10:49:35.712 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'dataSource'
+2022-10-22 10:49:35.712 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+2022-10-22 10:49:35.713 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'inMemoryDatabaseShutdownExecutor'
+2022-10-22 10:49:35.714 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration'
+2022-10-22 10:49:35.715 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'inMemoryDatabaseShutdownExecutor' via factory method to bean named 'dataSource'
+2022-10-22 10:49:35.715 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'inMemoryDatabaseShutdownExecutor' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2022-10-22 10:49:35.715 DEBUG 25292 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'entityManagerFactory'
