@@ -20,6 +20,7 @@ public class Runner implements CommandLineRunner {
 
 @Override
 public void run(String... args) throws Exception {
+	repo.deleteAll();
 	List<Employee> emp = new ArrayList<Employee>();
 	emp.add(new Employee("John", 120000l));
 	emp.add(new Employee("Saurav", 300000l));

@@ -1,17 +1,17 @@
 package com.employeemanagement.exception;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 public class ErrorDetails {
 	
-	private Date eventTimeStamp;
+	private LocalDateTime  eventTimeStamp;
 	private String message;
 	private String details;
 	private String errorCode;
-	public Date getEventTimeStamp() {
+	public LocalDateTime  getEventTimeStamp() {
 		return eventTimeStamp;
 	}
-	public void setEventTimeStamp(Date eventTimeStamp) {
+	public void setEventTimeStamp(LocalDateTime  eventTimeStamp) {
 		this.eventTimeStamp = eventTimeStamp;
 	}
 	public String getMessage() {
@@ -32,7 +32,7 @@ public class ErrorDetails {
 	public void setErrorCode(String errorCode) {
 		this.errorCode = errorCode;
 	}
-	public ErrorDetails(Date eventTimeStamp, String message, String details, String errorCode) {
+	public ErrorDetails(LocalDateTime  eventTimeStamp, String message, String details, String errorCode) {
 		super();
 		this.eventTimeStamp = eventTimeStamp;
 		this.message = message;
