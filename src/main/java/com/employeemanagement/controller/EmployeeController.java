@@ -33,6 +33,7 @@ public class EmployeeController {
 
 	@PostMapping("/save")
 	public ResponseEntity<String> saveEmployee(@RequestBody Employee emp) {
+		String str = "Test";
 		service.saveEmployee(emp);
 		return ResponseEntity.ok("Employee with ID " + emp.getId() + " is saved successfully");
 	}
