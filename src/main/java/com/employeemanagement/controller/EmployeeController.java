@@ -21,7 +21,7 @@ import com.employeemanagement.service.EmployeeServiceImpl;
 @RestController
 @RequestMapping("/emp")
 public class EmployeeController {
-	
+
 	private static final Logger log = LoggerFactory.getLogger(EmployeeController.class);
 
 	private final EmployeeServiceImpl service;
@@ -38,15 +38,20 @@ public class EmployeeController {
 
 	@PostMapping("/save")
 	public ResponseEntity<String> saveEmployee(@RequestBody Employee emp) {
-		service.saveEmployee(emp);
-		log.info("/emp/save method excecuted successfully");
-		return ResponseEntity.ok("Employee with ID " + emp.getId() + " is saved successfully");
+		if (emp != null) {
+			service.saveEmployee(emp);
+			log.info("/emp/save method excecuted successfully");
+			return ResponseEntity.ok("Employee with ID " + emp.getId() + " is saved successfully");
+		} else {
+			return ResponseEntity.badRequest().body("employee object is null");
+		}
+
 	}
 
 	@DeleteMapping("/delete")
 	public ResponseEntity<String> deleteEmployee(@RequestParam(value = "empid") Integer id) {
 		service.deleteEmployee(id);
-		log.info("/emp/delete method excecuted successfully with id "+id);
+		log.info("/emp/delete method excecuted successfully with id " + id);
 		return ResponseEntity.ok("Deleted employee associated with ID " + id);
 	}
 
