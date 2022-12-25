@@ -1,6 +1,8 @@
 public class Demo {
 
-// new class is added.
-
+public static void main(String[] args) {
+		String str = "hello all welcome to velocity";
+  System.out.println(str);
+	}
 
 }
