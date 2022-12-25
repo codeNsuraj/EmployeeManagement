@@ -7,6 +7,8 @@ public class Demo {
 		System.out.println(str);
 		System.out.println("Hello velocity we are master in git");
 		System.out.println("bug-112 is fixed");
+		System.out.println(str);
+		System.out.println("hello all");
 	}
 
 }
