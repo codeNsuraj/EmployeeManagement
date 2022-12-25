@@ -11,7 +11,9 @@ public class HashSetDemo {
 		set.add(200);
 		set.add(300);
 		
-		System.out.println(set);
+		for(Integer i : set){
+			System.out.println(i);
+		}
 	}
 
 }
