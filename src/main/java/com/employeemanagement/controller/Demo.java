@@ -6,6 +6,8 @@ public class Demo {
 		String str = "hello all welcome to velocity";
 		System.out.println(str);
 		System.out.println("Hello velocity we are master in git");
+		System.out.println(str);
+		System.out.println("hello all");
 	}
 
 }
