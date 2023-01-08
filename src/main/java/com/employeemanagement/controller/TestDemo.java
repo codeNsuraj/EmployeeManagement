@@ -9,6 +9,7 @@ public class TestDemo {
 
 	public static void main(String[] args) {
 		System.out.println("code-2");
+		System.out.println("code-2");
 		System.out.println("new code added");
 	}
 }
