@@ -1,7 +1,9 @@
-public class Student{
+package com.employeemanagement.entity;
 
-private int id;
-  private String name;
-  private String address;
+public class Student {
+
+	private int id;
+	private String name;
+	private String address;
 
 }
