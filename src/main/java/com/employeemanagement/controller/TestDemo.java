@@ -8,6 +8,7 @@ public class TestDemo {
 	private String mobileno;
 
 	public static void main(String[] args) {
-		System.out.println("Hello");
+		System.out.println("master priniting from here");
+		System.out.println("manager code is addded here");
 	}
 }
