@@ -11,5 +11,7 @@ public class TestDemo {
 		System.out.println("code-2");
 		System.out.println("code-2");
 		System.out.println("new code added");
+		System.out.println("new code added");
+		System.out.println("new code added");
 	}
 }
