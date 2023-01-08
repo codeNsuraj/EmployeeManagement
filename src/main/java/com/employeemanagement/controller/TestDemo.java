@@ -6,4 +6,7 @@ public class TestDemo {
 	private String name;
 	private String lable;
 
+	public static void main(String[] args) {
+		System.out.println("Hello");
+	}
 }
