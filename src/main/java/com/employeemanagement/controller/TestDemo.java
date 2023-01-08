@@ -8,6 +8,7 @@ public class TestDemo {
 	public static void main(String[] args) {
 		System.out.println("hello we have solved our bug");
 		System.out.println(id + name);
+		System.out.println("Bug is solved finally");
 
 	}
 }
