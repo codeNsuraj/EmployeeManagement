@@ -7,4 +7,7 @@ public class TestDemo {
 	private String lable;
 	private String mobileno;
 
+	public static void main(String[] args) {
+		System.out.println("Hello");
+	}
 }
