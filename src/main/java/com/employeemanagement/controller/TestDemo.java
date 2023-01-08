@@ -2,10 +2,12 @@ package com.employeemanagement.controller;
 
 public class TestDemo {
 
-	private int id;
-	private String name;
+	private static int id = 101;
+	private static String name = "praveen";
 
 	public static void main(String[] args) {
 		System.out.println("hello we have solved our bug");
+		System.out.println(id + name);
+
 	}
 }
